@@ -2,7 +2,7 @@
 
 This repository is designed to help you work through the mode of working that you will do for this course. Please follow the steps below after you have both a terminal program (such as Termius) and the Atom editor installed on your machine with the remote-sync package also installed.
 
-You should have had some instructions for cloning this repository in the Atom editor and syncing a copy of it to the server.
+You should have already followed some instructions for cloning this repository in the Atom editor and syncing a copy of it to the server.
 
 **You should have the terminal open on the server and should have used the 'cd' command in the command line to be in the directory where this code is.**
 
@@ -163,6 +163,6 @@ Now click the "Commit to Master" button.
 
 ### 2. Push committed Changes to github
 
-In the bottom panel towards the right corner, just to the left of the GitHub button, choose the button labeled 'Push'.
+In the bottom panel towards the right corner, just to the left of the GitHub button, choose the button labeled 'Push 1'. It is finished when the arrow goes away and the button changes to 'Fetch'.
 
 You should be able to go back to GitHub and check whether your changes are now there for this repository.
