@@ -11,7 +11,7 @@ void aFunction(int aNumber);
 int main() {
     printf("hello world\n");
 	// 42: the answer to life, the universe, and everything
-    aFunction(129);
+    aFunction(42);
 }
 
 /* aFunction
