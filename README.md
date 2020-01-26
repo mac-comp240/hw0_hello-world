@@ -142,7 +142,7 @@ ______________________
 
 - If your laptop dies, there is a version on github that you can recover.
 
-## From Atom editor
+## From Atom editor (VS Code below)
 
 There are two steps to getting your code up to your github repository:
 
@@ -166,3 +166,19 @@ Now click the "Commit to Master" button.
 In the bottom panel towards the right corner, just to the left of the GitHub button, choose the button labeled 'Push 1'. It is finished when the arrow goes away and the button changes to 'Fetch'.
 
 You should be able to go back to GitHub and check whether your changes are now there for this repository.
+
+## From Visual Studio Code editor
+
+From the far left, choose the tab along the left side that looks like 3 cirles connect with lines.
+
+Look for files under the section labeled CHNAGEs.
+
+ You can stage each change individually by hovering over a file name and clicking the + icon.
+
+ You can stage all the changes to several files by choosing the menu with thre dots, ..., and then 'Stage All Changes'.
+
+ Write in a commit message for these chages. It helps to recover this commit if you give it a reasoable message.
+
+ Choose the check mark icon to commit the changes.
+
+ Then from the three dots menu, choose to 'Push'. 
