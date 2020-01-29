@@ -169,16 +169,16 @@ You should be able to go back to GitHub and check whether your changes are now t
 
 ## From Visual Studio Code editor
 
-From the far left, choose the tab along the left side that looks like 3 cirles connect with lines.
+From the far left, choose the tab along the left side that looks like 3 circles connect with lines.
 
-Look for files under the section labeled CHNAGEs.
+Look for files under the section labeled CHANGES.
 
  You can stage each change individually by hovering over a file name and clicking the + icon.
 
- You can stage all the changes to several files by choosing the menu with thre dots, ..., and then 'Stage All Changes'.
+ You can stage all the changes to several files by choosing the menu with three dots, ..., and then 'Stage All Changes'.
 
- Write in a commit message for these chages. It helps to recover this commit if you give it a reasoable message.
+ Write in a commit message for these changes. It helps to recover this commit if you give it a reasonable message.
 
  Choose the check mark icon to commit the changes.
 
- Then from the three dots menu, choose to 'Push'. 
+ Then from the three dots menu, choose to 'Push'.
