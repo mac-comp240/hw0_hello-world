@@ -1,8 +1,8 @@
 # A test of the course setup
 
-This repository is designed to help you work through the mode of working that you will do for this course. Please follow the steps below after you have both a terminal program (such as Termius) and the Atom editor installed on your machine with the remote-sync package also installed.
+This repository is designed to help you work through the mode of working that you will do for this course. Please follow the steps below after you have your account set up on our department server using the install instructions for VS Code.
 
-You should have already followed some instructions for cloning this repository in the Atom editor and syncing a copy of it to the server.
+You should have already followed some instructions for cloning this repository in the VS Code editor and syncing a copy of it to the server.
 
 **You should have the terminal open on the server and should have used the 'cd' command in the command line to be in the directory where this code is.**
 
@@ -113,7 +113,7 @@ Type these two alternatives at the command line:
 
     make hello
 
-Edit the hello.c file in Atom on your laptop by changing this line in main (line 14) to print some  number other than 42:
+Edit the hello.c file in VS Code on your laptop by changing this line in main (line 14) to print some  number other than 42:
 
     aFunction(42);
 
@@ -134,7 +134,7 @@ ______________________
 
 # Keep versions and Turn in assignments by saving changes to github
 
-**IMPORTANT:** You should periodically do what we are going to describe here as you work on your homework. When you are at a point where code is working, it is always a good idea to *commit* and *push* it up to github, because:
+**IMPORTANT:** You should periodically do what we are going to describe here as you work on your homework. When you are at a point where code is working, it is always a good idea to *stage*, *commit*, and *push* it up to github, because:
 
 - You will then have a version that you can always get back to when something goes wrong as you continue editing.
 
@@ -142,43 +142,34 @@ ______________________
 
 - If your laptop dies, there is a version on github that you can recover.
 
-## From Atom editor (VS Code below)
-
-There are two steps to getting your code up to your github repository:
-
-1. Stage and commit
-2. Push committed changes to github
-
-### 1. Stage and Commit
-
-Open the Git panel, which should appear on the right, showing changed files in yellow and new files in green in the top section.
-
-Choose 'Stage All' in the upper right by clicking on it. The files will move to the center section, labeled 'Staged Changes'.
-
-In the area that says "Commit message", type some words to help you remember the changes you made, such as 'updated value printed.'
-
-**Important:** A meaningful text is really helpful here, so that you can get back to this change if you need to later.
-
-Now click the "Commit to Master" button.
-
-### 2. Push committed Changes to github
-
-In the bottom panel towards the right corner, just to the left of the GitHub button, choose the button labeled 'Push 1'. It is finished when the arrow goes away and the button changes to 'Fetch'.
-
-You should be able to go back to GitHub and check whether your changes are now there for this repository.
 
 ## From Visual Studio Code editor
 
 From the far left, choose the tab along the left side that looks like 3 circles connect with lines.
 
-Look for files under the section labeled CHANGES.
+Look for files under the section labeled Changes.
 
- You can stage each change individually by hovering over a file name and clicking the + icon.
+### 1. Stage the Changes
+ You can stage each change individually by hovering over a file name and clicking the + icon. You can choose all files by hovering over the word Changes and slide to the right and pick the + icon.
 
- You can stage all the changes to several files by choosing the menu with three dots, ..., and then 'Stage All Changes'.
+ You can also stage all the changes to several files by choosing the menu with three dots, ..., and then 'Stage All Changes'.
 
- Write in a commit message for these changes. It helps to recover this commit if you give it a reasonable message.
+ You should now see a new section called 'Staged Changes'.
 
- Choose the check mark icon to commit the changes.
+### 2. Commit the changes
 
- Then from the three dots menu, choose to 'Push'.
+ Write in a commit message for these changes in the input line that says ''Message'. It helps to recover this commit if you give it a reasonable message.
+
+ Choose the check mark icon to the right of hw0_hello-world to commit the changes.
+
+### 3. Push the changes to github
+
+ Then from the three dots menu to the right of hw0_hello-world, choose to 'Push'. You should see some activity in the lower left where the circular arrow icon is.
+
+ ## Go to github.com to check for your changes
+
+ Now in a web browser, log into your github.com account and find this repository and look for the changes that you made.
+
+### Go back to the files display
+
+The icon in the upper left that looks like files will take you to the view of the files in your cloned repository.
