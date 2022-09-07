@@ -143,33 +143,38 @@ ______________________
 - If your laptop dies, there is a version on github that you can recover.
 
 
-## From Visual Studio Code editor
-
-From the far left, choose the tab along the left side that looks like 3 circles connect with lines.
-
-Look for files under the section labeled Changes.
+## From the terminal
 
 ### 1. Stage the Changes
- You can stage each change individually by hovering over a file name and clicking the + icon. You can choose all files by hovering over the word Changes and slide to the right and pick the + icon.
 
- You can also stage all the changes to several files by choosing the menu with three dots, ..., and then 'Stage All Changes'.
+Stage the changes by running
 
- You should now see a new section called 'Staged Changes'.
+    git add <filename>
+
+On the command line for each file that you have modified and wish to save on GitHub.
 
 ### 2. Commit the changes
 
- Write in a commit message for these changes in the input line that says ''Message'. It helps to recover this commit if you give it a reasonable message.
+Commit the changes by running
 
- Choose the check mark icon to the right of hw0_hello-world to commit the changes.
+    git commit -m "Enter a meaningful commit message between these quotes"
 
 ### 3. Push the changes to github
 
- Then from the three dots menu to the right of hw0_hello-world, choose to 'Push'. You should see some activity in the lower left where the circular arrow icon is.
+Now, you can push this to GitHub by running
+
+    git push
 
  ## Go to github.com to check for your changes
 
  Now in a web browser, log into your github.com account and find this repository and look for the changes that you made.
 
-### Go back to the files display
+### First time?
 
-The icon in the upper left that looks like files will take you to the view of the files in your cloned repository.
+If this is your first time running these commands from the server, you may get some warning messages, questions, etc. Read them! They will tell you what you are expected to do. You can always ask for help, but first, read the message and see if it answers your question.
+
+Further, you can run
+
+    git status
+    
+To inform you what stage in the add/commit/push process you're at, if you've forgotten, or you want a reminder of which files you've made changes to.
