@@ -67,9 +67,9 @@ ____________________
 
 # Building code with make
 
-C code compiling can be fairly complicated, especially when you have multiple code files that make up a project.
+The example program in this assignment is extremely simple. However, as our programs get more complicated, compiling the C code gets much more complicated as well, especially when you have multiple code files that make up a project. It can be a struggle to remember which files need to be compiled with which compiler options, and how to combine together the files into one executable!
 
-Unix systems provide a command-line program called `make`, when used in conjunction with a file that you write, usually named `Makefile`, will let you more easily build your C code into an executable.
+To help manage this, Unix systems provide a command-line program called `make` which reads a special file named `Makefile` to determine how to compile a C program. You create the Makefile and write in it how compilation needs to work. Then you don't have to remember it: you just call `make`!
 
 Open the file called Makefile. It looks like this:
 
