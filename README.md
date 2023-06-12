@@ -73,13 +73,13 @@ To help manage this, Unix systems provide a command-line program called `make` w
 
 Open the file called Makefile. It looks like this:
 
-    CC = gcc                     #line 1
-                                 #line 2
-    hello: hello.c               #line 3
-    	$(CC) -o hello hello.c   #line 4
-	                             #line 5
-    clean:                       #line 6
-    	rm hello                 #line 7
+    CC = gcc                          # line 1
+                                      # line 2
+    hello: hello.c                    # line 3
+    	$(CC) -o hello hello.c        # line 4
+	                              # line 5
+    clean:                            # line 6
+    	rm hello                      # line 7
 
 
 
