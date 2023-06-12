@@ -73,6 +73,7 @@ To help manage this, Unix systems provide a command-line program called `make` w
 
 Open the file called Makefile. It looks like this:
 
+```
     CC = gcc                          # line 1
                                       # line 2
     hello: hello.c                    # line 3
@@ -80,7 +81,7 @@ Open the file called Makefile. It looks like this:
 	                              # line 5
     clean:                            # line 6
     	rm hello                      # line 7
-
+```
 
 
 There are some important things to know about makefiles. ...
