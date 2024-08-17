@@ -2,7 +2,7 @@
 
 This repository is designed to help you work through the mode of working that you will do for this course. Please follow the steps below after you have your account set up on our department server using the install instructions for VS Code.
 
-You should have already followed some instructions for cloning this repository in the VS Code editor and syncing a copy of it to the server.
+You should have already followed some instructions for cloning this repository in the VS Code editor (which might mean cloning directly to the server, **or** cloning to your computer and then syncing a copy of it to the server).
 
 **You should have the terminal open on the server and should have used the 'cd' command in the command line to be in the directory where this code is.**
 
