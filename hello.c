@@ -4,10 +4,9 @@
 // function declarations
 void aFunction(int aNumber);
 
-// main
-// This program simply prints a rather meaningless
-// message as an example.
-//
+/* main
+ * This program simply prints a rather meaningless message as an example.
+ */
 int main() {
     printf("hello world\n");
 	// 42: the answer to life, the universe, and everything
